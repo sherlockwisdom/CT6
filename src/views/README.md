@@ -23,7 +23,7 @@
 > - 3+ = [label 2a]-3_plus = -> _input_radio_ | **value=3+**
 > - TB LAMP - Positive = [label 2a]-tb_lamp_positive = -> _input_radio_ | **value=tb_lamp_positive**
 > - TB LAMP - Negative = [label 2a]-tb_lamp_negative = -> _input_radio_ | **value=tb_lamp_negative**
-> - Not Done = [label 2a]-not_done = -> _input_radio_ | **value=not_done** | **default**
+> - Not Done = [label 2a]-not_done = -> _input_radio_ | **value=not_done** | **attribute=default**
 
 - Result 2 = result_2 (label 2b)
 > - No AFB seen = [label 2b]-no_afb_seen = -> _input_radio_ : **value=no_afb_seen**
@@ -33,7 +33,7 @@
 > - 3+ = [label 2b]-3_plus = -> _input_radio_ | **value=3+**
 > - TB LAMP - Positive = [label 2b]-tb_lamp_positive = -> _input_radio_ | **value=tb_lamp_positive**
 > - TB LAMP - Negative = [label 2b]-tb_lamp_negative = -> _input_radio_ | **value=tb_lamp_negative**
-> - Not Done = [label 2b]-not_done = -> _input_radio_ = -> _input_radio_ **value=not_done** | **default**
+> - Not Done = [label 2b]-not_done = -> _input_radio_ = -> _input_radio_ **value=not_done** | **attribute=default**
 
 > - Date = [label 2]-date = -> _input_date_ | **value=current date and time**
 > - Done By = [label 2]-done_by = -> _input_text_ | **value = blank**
@@ -44,7 +44,7 @@
 > - Trace = [label 3a]-trace = -> _input_radio_ | **value=trace**
 > - Not Detected = [label 3a]-not_detected = -> _input_radio_ | **value=not_detected**
 > - Error/Invalid = [label 3a]-error_invalid = -> _input_radio_ | **value=error_invalid**
-> - Not Done = [label 3a]-not_done = -> _input_radio_ | **value=not_done** | **default**
+> - Not Done = [label 3a]-not_done = -> _input_radio_ | **value=not_done** | **attribute=default**
 
 - Grades = grades (label 3b)
 > - High = [label 3b]-high = -> _input_radio_ | **value=high**
