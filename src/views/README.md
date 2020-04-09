@@ -65,7 +65,7 @@
 ###### Section #4 = Urine LF-LAM = urine_lf_lam (label 4)
 > - Negative = [label 4]-negative = -> _input_radio_ | **value=negative** 
 > - Positive = [label 4]-positive = -> _input_radio_ | **value=positive**
-> - error_invalid = [label 4]-error_invalid = -> _input_radio_ | **value=error_invalid**
+> - Error/Invalid = [label 4]-error_invalid = -> _input_radio_ | **value=error_invalid**
 > - Not Done = [label 4]-not_done = -> _input_radio_ | **value=not_done** | **attribute=default**
 
 > - Date = [label 4]-date = -> _input_date_ | **value=current date and time**
