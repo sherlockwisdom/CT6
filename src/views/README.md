@@ -1,12 +1,12 @@
-##### BEHAVIOUR
-###### LABS
-* Section #1 (label 1)
+#### BEHAVIOUR
+##### LABS
+###### Section #1 (label 1)
 > - Patient's Name and ID = patients_name_and_id
 > - Date Specimen Received = date_specimen_received
 > - Received By = received_by
 > - Lab Registration Number = lab_registration_number
 
-* Section #2 = Smear Microscopy Result = smr (label 2)
+###### Section #2 = Smear Microscopy Result = smr (label 2)
 - Result 1 (label 2a)
 > - No AFB seen = [label 2a]-no_afb_seen
 > - Scanty = [label 2a]-scanty
@@ -30,7 +30,7 @@
 > - Date = [label 2]-date
 > - Done By = [label 2]-done_by
 
-* Section #3 = Xpert MTB/RIF Assay (label 3)
+###### Section #3 = Xpert MTB/RIF Assay (label 3)
 - MTB Result (label 3a)
 > - Detected = [label 3a]-detected
 > - Trace = [label 3a]-trace
@@ -53,7 +53,7 @@
 > - Date = [label 3]-date
 > - Done By = [label 3]-done_by
 
-* Section #4 = Urine LF-LAM (label 4)
+###### Section #4 = Urine LF-LAM (label 4)
 > - Negative = [label 4]-negative
 > - Positive = [label 4]-positive
 > - error_invalid = [label 4]-error_invalid
