@@ -1,13 +1,13 @@
 #### BEHAVIOUR
 ##### LABS
 ###### FORMAT
-- LABEL = ID = -> _TYPE OF FORM FIELD_TYPE OF FORM INPUT_
-> ###### e.g
->- Patient's Name and ID = patients_name_and_id = -> _input_text_
-```HTML/CSS
-<label for="patients_name_and_id"> Patient's Name and ID </label>
-<input id="patients_name_and_id" type="text" />
-```
+Action -> Element ID ... Element ID[n].
+Action -> Element ID -> Action -> ELement ID[n]
+**Rules**
+- On 'hide': All elements return to their default values
+**Actions**
+- Hide -> Hides an element
+- Unhide -> Unhides an element
 ###### Section #1 (label 1)
 > - Patient's Name and ID = patients_name_and_id = -> _input_text_
 > - Date Specimen Received = date_specimen_received = -> _input_date_
