@@ -51,6 +51,7 @@
 > - Medium = [label 3b]-medium = -> _input_radio_
 > - Low = [label 3b]-low = -> _input_radio_
 > - Very Low = [label 3b]-very_low = -> _input_radio_
+> - N_A = [label 3b]-n_a -> _input_radio_
 
 - RIF Result rif_result (label 3c)
 > - Detected = [label 3c]-detected = -> _input_radio_
