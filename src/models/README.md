@@ -53,7 +53,7 @@
 > - Very Low = [label 3b]-very_low = -> _input_radio_
 > - N_A = [label 3b]-n_a -> _input_radio_
 
-- RIF Result rif_result (label 3c)
+- RIF Result = rif_result (label 3c)
 > - Detected = [label 3c]-detected = -> _input_radio_
 > - Indeterminate = [label 3c]-indeterminate = -> _input_radio_
 > - Not Detected = [label 3c]-not_detected = -> _input_radio_
