@@ -8,11 +8,16 @@ var label_3c = document.getElementById("rif_result");
 var label_4 = document.getElementById("urine_lf_lam");
 
 // Hider
-function hide(ID){
+function hide(ID) {
     ID.style.display = "none";
 }
-
 // UnHider
-function unhide(ID){
+function unhide(ID) {
     ID.style.display = "block";
+}
+// listen for checked button
+function checkedButton(ID, callback) {
+    if (ID.checked == true) {
+        callback();
+    }
 }
