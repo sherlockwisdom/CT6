@@ -11,3 +11,8 @@ var label_4 = document.getElementById("urine_lf_lam");
 function hide(ID){
     ID.style.display = "none";
 }
+
+// UnHider
+function unhide(ID){
+    ID.style.display = "block";
+}
