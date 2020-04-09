@@ -1,10 +1,10 @@
 #### BEHAVIOUR
 ##### LABS
 ###### FORMAT
-Action -> Element ID ... Element ID[n].
-Action -> Element ID -> Action -> ELement ID[n]
+- Action -> Element ID ... Element ID[n].
+- Action -> Element ID -> Action -> ELement ID[n]\
 **Rules**
-- On 'hide': All elements return to their default values
+- On 'hide': All elements return to their default values\
 **Actions**
 - Hide -> Hides an element
 - Unhide -> Unhides an element
