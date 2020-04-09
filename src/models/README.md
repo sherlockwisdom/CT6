@@ -38,7 +38,7 @@
 > - Date = [label 2]-date = -> _input_date_
 > - Done By = [label 2]-done_by = -> _input_text_
 
-###### Section #3 = Xpert MTB/RIF Assay (label 3)
+###### Section #3 = Xpert MTB/RIF Assay = xpert (label 3)
 - MTB Result = mtb_result (label 3a)
 > - Detected = [label 3a]-detected = -> _input_radio_ | **behaviour:** Unhides grades && rif_result && [label 3]-date && [label 3]-done_by
 > - Trace = [label 3a]-trace = -> _input_radio_ | **behaviour:** Hides grades && Unhides rif_result && [label 3]-date && [label 3]-done_by
