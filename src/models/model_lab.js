@@ -56,7 +56,7 @@ function hide(ID) {
 }
 // UnHider
 function unhide(ID) {
-    ID.style.display = "block";
+    ID.style.display = "inline";
 }
 // listen for checked button
 function checkedButton(ID, callback) {
@@ -65,11 +65,20 @@ function checkedButton(ID, callback) {
     }
 }
 
-// section_behaviour
-function behaviour(action,callback){
-    if(action == "hide"){
-        callback();
-    }else if(action == "unhide"){
-        callback()
+// section_2_behaviour
+function sec2_behaviour(action) {
+    if (action == "hide") {
+        hide(label_2b);
+        hide(label_2_date);
+        hide(label_2_done_by);
+    } else if (action == "unhide") {
+        unhide(label_2b);
+        unhide(label_2_date);
+        unhide(label_2_done_by);
     }
 }
+
+// test
+label_2a_no_afb_seen.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+})
