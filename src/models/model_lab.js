@@ -142,5 +142,19 @@ label_3a_error_invalid.addEventListener("click", function () {
     checkedButton(this, sec3_behaviour("unhide"));
 });
 label_3a_not_done.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("hide"));
+});
+
+// Section 4 action
+label_4_negative.addEventListener("click", function () {
     checkedButton(this, sec3_behaviour("unhide"));
+});
+label_4_positive.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
+label_4_error_invalid.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
+label_4_not_done.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("hide"));
 });
