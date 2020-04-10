@@ -64,3 +64,12 @@ function checkedButton(ID, callback) {
         callback();
     }
 }
+
+// section_behaviour
+function behaviour(action,callback){
+    if(action == "hide"){
+        callback();
+    }else if(action == "unhide"){
+        callback()
+    }
+}
