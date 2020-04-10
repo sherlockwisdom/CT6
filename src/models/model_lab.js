@@ -77,8 +77,53 @@ function sec2_behaviour(action) {
         unhide(label_2_done_by);
     }
 }
+// section_3_behaviour
+function sec3_behaviour(action) {
+    if (action == "hide") {
+        hide(label_3b);
+        hide(label_3c);
+        hide(label_3_date);
+        hide(label_3_done_by);
+    } else if (action == "unhide") {
+        hide(label_3b);
+        hide(label_3c);
+        hide(label_3_date);
+        hide(label_3_done_by);
+    }
+}
+// section_4_behaviour
+function sec4_behaviour(action) {
+    if (action == "hide") {
+        hide(label_4_date);
+        hide(label_4_done_by);
+    } else if (action == "unhide") {
+        hide(label_4_date);
+        hide(label_4_done_by);
+    }
+}
 
-// test
+// Section 2 action
 label_2a_no_afb_seen.addEventListener("click", function () {
     checkedButton(this, sec2_behaviour("unhide"));
-})
+});
+label_2a_scanty.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+});
+label_2a_1_plus.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+});
+label_2a_2_plus.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+});
+label_2a_3_plus.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+});
+label_2a_tb_lamp_positive.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+});
+label_2a_tb_lamp_negative.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("unhide"));
+});
+label_2a_not_done.addEventListener("click", function () {
+    checkedButton(this, sec2_behaviour("hide"));
+});
