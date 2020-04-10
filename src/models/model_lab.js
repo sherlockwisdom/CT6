@@ -127,3 +127,20 @@ label_2a_tb_lamp_negative.addEventListener("click", function () {
 label_2a_not_done.addEventListener("click", function () {
     checkedButton(this, sec2_behaviour("hide"));
 });
+
+// Section 3 action
+label_3a_dectected.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
+label_3a_trace.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
+label_3a_not_dectected.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
+label_3a_error_invalid.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
+label_3a_not_done.addEventListener("click", function () {
+    checkedButton(this, sec3_behaviour("unhide"));
+});
