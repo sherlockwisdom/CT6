@@ -79,3 +79,25 @@
 
 > - Date = [label 4]-date = -> _input_date_ | **value=current date and time**
 > - Done By = [label 4]-done_by = -> _input_text_ | **value = blank**
+
+
+##### Edit information
+
+###### Section #1 (label 1)
+> - ID = patient_id = -> _input_text_ | **disabled**
+> - Name = patient_name -> _input_text_
+> - Age = patient_age -> _input_number_
+> - Telephone = tel_one -> _input_number_
+> - Telephone 2 = tel_two -> _input_number_
+> - Gender = patient_gender -> _select_ | options -> male , female
+> - Date of test request = test_request_date -> _input_text_ | **disabled**
+> - Address = patient_address -> _input_text_ | **disabled**
+> - ART = patient_art -> _input_text_  | **disabled**
+> - Status = status -> _input_text_ | **disabled**
+> - Symptoms = symptoms -> _input_text_ | **disabled**
+> - Region = region -> _input_text_ | **disabled**
+> - Site = site -> _input_text_ | **disabled**
+> - Patient Category = patient_category -> _input_text_ | **disabled**
+> - Reason for test = reason_for_test -> _input_text_ |  **disabled**
+> - TB Treatment History = tb_treatment_history -> _input_text_ | **disabled**
+> - button -> _input_submit_ | value = save changes
