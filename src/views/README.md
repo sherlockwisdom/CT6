@@ -167,3 +167,50 @@
 - text -> **value="Good Job"**
 - text -> **value="Review Everything and click record**
 - button -> _input_submit_ | **value="Record"**
+
+
+##### Outcome Recorded
+
+###### Section #1 = Very Inportant Alert! -> modal  (label 1)
+- message -> _h2_ | **value="No Lab Results Recorded"
+- button -> _input_submit_ | **value="Navigate Patient"**
+###### Section #2 (label 2)
+- container area = follow_up_status_container -> _div_
+> - Lab Results(click here) = lab_result -> _link_ | **attribute="toggle"**
+> - container area = lab_result_details -> _div_
+>> - heading -> h3 | **value ="SMR Results"**
+>> - text -> Result 1: | **value="[result_1_option]"**
+>> - text -> Result 2: | **value="[result_2_option]"**
+
+>> - heading ->  h3 | **value="Xpert results"**
+>> - text -> MTB : | **value="[mtb_option]"**
+>> - text -> Grade : | **value="[grade_option]"**
+>> - text -> RIF : | **value="[rif_result_option]"**
+
+>> - heading -> h3 | **value="Urine results"**
+>> - text -> Result: | **value="[lf_lam_option]"**
+
+- Patients name and ID = patients_name_and_id -> _input_text_ | **attribute="disabled"**  **value="[patients_name_and_id]"**
+
+###### Section 3 (label 3)
+
+> - Started TB Treatment = started_tb_treatment -> _input_radio_ | **value="started_tb_treatment"**
+> - Referred for treatment = referred_for_treatment -> _input_radio | **value="referred_for_treatment"**
+> - Patient improved, Unlikely TB = patient_improved -> _input_radio | **value="patient_improved"**
+> - Lost Patient to follow up = lost_patient -> _input_radio_ | **value="lost_patient"**
+> - other = other -> _input_radio_ | **value="other"**
+
+
+> - Other = other_option -> _input_text_
+> - Comments = comments -> _textarea_ | **row_size ="4"**
+
+###### Section 4 (label 4)
+
+> - container area = requester_details -> _div_
+>> - text-bold | heading -> Username : **value="[user.name]"**
+>> - text-bold | heading -> Phonenumber : **value="[user.phonenumber]"**
+>> - button -> _input_submit_ | **value="Not my accoutn"**
+
+###### Section #5 (label 5)
+- text -> **value="Good Job"**
+- text -> **value="Review Everything and click record**
