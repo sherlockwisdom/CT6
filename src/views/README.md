@@ -138,10 +138,9 @@
 - message -> _h2_ | **value="No Lab Results Recorded"
 - button -> _input_submit_ | **value="Navigate Patient"**
 ###### Section #2 (label 2)
-- container area = follow_up_status_container -> _div_
-> - Lab Results(click here) = lab_result -> _link_ | **attribute="toggle"**
-> - container area = lab_result_details -> _div_
->> - heading -> h3 | **value ="SMR Results"**
+- container area = follow_up_status_container -> _div###### Section #5 (label 5)
+- text -> **value="Good Job"**
+- text -> **value="Review Everything and click record**
 >> - text -> Result 1: | **value="[result_1_option]"**
 >> - text -> Result 2: | **value="[result_2_option]"**
 
@@ -192,8 +191,8 @@
 
 - Patients name and ID = patients_name_and_id -> _input_text_ | **attribute="disabled"**  **value="[patients_name_and_id]"**
 
-###### Section 3 (label 3)
-
+###### Section #3 (label 3)
+> - <b>_input_radio* -> name = outcome_recorded_option<b>
 > - Started TB Treatment = started_tb_treatment -> _input_radio_ | **value="started_tb_treatment"**
 > - Referred for treatment = referred_for_treatment -> _input_radio | **value="referred_for_treatment"**
 > - Patient improved, Unlikely TB = patient_improved -> _input_radio | **value="patient_improved"**
@@ -204,7 +203,7 @@
 > - Other = other_option -> _input_text_
 > - Comments = comments -> _textarea_ | **row_size ="4"**
 
-###### Section 4 (label 4)
+###### Section #4 (label 4)
 
 > - container area = requester_details -> _div_
 >> - text-bold | heading -> Username : **value="[user.name]"**
@@ -212,5 +211,60 @@
 >> - button -> _input_submit_ | **value="Not my accoutn"**
 
 ###### Section #5 (label 5)
+- text -> **value="Good Job"**
+- text -> **value="Review Everything and click record**
+
+
+##### TB Treatment Outcome
+- text-bold | heading -> recorded at end of 6months treatment
+
+###### Section #1 = Very Inportant Alert! -> modal  (label 1)
+- message -> _h2_ | **value="TB Treatment outcome cannot be entered  for this patient. Patient is not recorded as  Started Tb Treatment. Referred for TB Treatment"
+- button -> _input_submit_ | **value="Navigate Patient"**
+
+###### Section #2 (label 2)
+- container area = follow_up_status_container -> _div_
+> - Lab Results(click here) = lab_result -> _link_ | **attribute="toggle"**
+> - container area = lab_result_details -> _div_
+>> - heading -> h3 | **value ="SMR Results"**
+>> - text -> Result 1: | **value="[result_1_option]"**
+>> - text -> Result 2: | **value="[result_2_option]"**
+
+>> - heading ->  h3 | **value="Xpert results"**
+>> - text -> MTB : | **value="[mtb_option]"**
+>> - text -> Grade : | **value="[grade_option]"**
+>> - text -> RIF : | **value="[rif_result_option]"**
+
+>> - heading -> h3 | **value="Urine results"**
+>> - text -> Result: | **value="[lf_lam_option]"**
+
+- container area = follow_up_status_container -> _div_
+> - Follow Up Recorded(click here) = follow_up_recorded_result -> _link_ | **attribute="toggle"**
+>> - text -> x-ray : | **value=" "**
+>> - text -> Amoxicillin : | **value=" "**
+>> - text -> Other Antibiotic : | **value=" "**
+>> - text -> Follow Up Date(y-m-d): | **value=" "**
+>> - text -> comments : | **value=" "**
+
+- container area = follow_up_status_container -> _div_
+> - Outcome Recorded(click here) = outcome_recorded_result -> _link_ | **attribute="toggle"**
+>> - text -> outcome : | **value=" "**
+>> - text -> TB RX number: | **value=" "**
+>> - text -> Comments : | **value=" "**
+
+- Patients name and ID = patients_name_and_id -> _input_text_ | **attribute="disabled"**  **value="[patients_name_and_id]"**
+
+###### Section #3 (label 3)
+> - <b>_input_radio* -> name = tb_treatment_outcome_option<b>
+> - cured = cured -> _input_radio_ | **value="cured"**
+> - Treatment completed = treatment_completed -> _input_radio_ | **value="treatment_completed"**
+> - Lost to Follow up = lost_to_follow_up -> _input_radio_ | **value="lost_to_follow_up"**
+> - Died = died -> _input_radio_ | **value="died"**
+> - Transfered out = tranferred_out -> _input_radio_ | **value="tranferred_out"**
+
+> - Comments = comments -> _textarea_ | **row-size="5"**
+> - close Patient File = close_patient_file -> _input_checkbox_ | **value="close_patient_file"**
+
+###### Section #4 (label 4)
 - text -> **value="Good Job"**
 - text -> **value="Review Everything and click record**
