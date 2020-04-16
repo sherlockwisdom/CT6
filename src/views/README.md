@@ -132,5 +132,38 @@
 > - button -> _input_submit_ | value = save
 
 
+##### Follow Up
 
+###### Section #1 = Very Inportant Alert! -> modal  (label 1)
+- message -> _h2_ | **value="No Lab Results Recorded"
+- button -> _input_submit_ | **value="Navigate Patient"**
+###### Section #2 (label 2)
+- container area = follow_up_status_container -> _div_
+> - Lab Results(click here) = lab_result -> _link_ | **attribute="toggle"**
+> - container area = lab_result_details -> _div_
+>> - heading -> h3 | **value ="SMR Results"**
+>> - text -> Result 1: | **value="[result_1_option]"**
+>> - text -> Result 2: | **value="[result_2_option]"**
 
+>> - heading ->  h3 | **value="Xpert results"**
+>> - text -> MTB : | **value="[mtb_option]"**
+>> - text -> Grade : | **value="[grade_option]"**
+>> - text -> RIF : | **value="[rif_result_option]"**
+
+>> - heading -> h3 | **value="Urine results"**
+>> - text -> Result: | **value="[lf_lam_option]"**
+
+- Patients name and ID = patients_name_and_id -> _input_text_ | **attribute="disabled"**  **value="[patients_name_and_id]"**
+
+###### Section #3 (label 3)
+
+- X-RAY = x_ray -> _input_checkbox_ | **value="x_ray"**
+- Amoxicillin Prescribed = amoxicillin_prescribed -> _input_checkbox_ | **value="amoxicillin_prescribed"**
+- Other Antibiotic = other_antibiotic -> _input_text_
+- Follow_up Scheduled Date = follow_up_scheduled_date -> _input_date_
+- comments = comments -> _textarea_ | **row_number="4"**
+
+###### Section #4 (label 4)
+- text -> **value="Good Job"**
+- text -> **value="Review Everything and click record**
+- button -> _input_submit_ | **value="Record"**
