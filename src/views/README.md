@@ -101,3 +101,36 @@
 > - Reason for test = reason_for_test -> _input_text_ |  **disabled**
 > - TB Treatment History = tb_treatment_history -> _input_text_ | **disabled**
 > - button -> _input_submit_ | value = save changes
+
+
+##### Specimen Collection
+
+###### Section #1 (label 1)
+- container area = status_container -> _div_
+###### Section #2 = [patient_name][patient_id] | (label 2)
+- Date = "date" -> _input_date_
+- Specimen Type = specimen_type (label 2a)
+> - <b>_input_radio* -> name = specimen_option<b>
+> - Sputum = [label 2a]_sputum -> _input_radio_ |**value=sputum** | **attribute="default"**
+> - CSF =[label 2a]_csf -> _input_radio_ | **value="CSF"**
+> - Lymph node aspirate = [label 2a]_LNA | **value="LNA"**
+> - Gastric aspirate  = [label 2a]_gastric_aspirate | **value="gastric_aspirate"**
+> - Urine = [label 2a]_urine | **value="urine"**
+> - Other = [label 2a] other | **value="other"**
+> - <b>NO label</b> = other_option -> _input_text_ | **value="Enter Other/ Entrez Autre"**
+
+
+> - <b>_input_radio* -> name = sputum_option<b>
+> - spot = [label 2a]_sputum_spot -> _input_radio_ | **value="spot"** | **attribute="default"**
+> - Morning = [label 2a]_sputum_morning -> _input_radio_ | **value="morning"**
+> - Mucopurulent = [label 2a]_sputum_mucopurulent -> _input_radio_ | **value="mucopurulent"**
+> - Bloody = [label 2a]_sputum_bloody -> _input_radio_ | **value="bloody"**
+> - Salivary = [label 2a]_sputum_salivary -> _input_radio_ | **value="salivary"**
+> - N/A = [label 2a]_sputum_NA -> _input_radio_ | **value="N/A"**
+
+> - Received by = received_by -> _input_text_
+> - button -> _input_submit_ | value = save
+
+
+
+
